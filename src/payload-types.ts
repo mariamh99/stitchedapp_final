@@ -61,7 +61,7 @@ export interface ProductFile {
   createdAt: string;
   url?: string | null;
   filename?: string | null;
-  mimeType?: 'application/pdf' | null;
+  mimeType?: string | null;
   filesize?: number | null;
   width?: number | null;
   height?: number | null;
