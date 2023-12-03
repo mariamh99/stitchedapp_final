@@ -4,8 +4,8 @@ export const PRODUCT_CATEGORIES = [
     value: 'knitting_patterns' as const,
     featured: [
       {
-        name: 'Editor picks',
-        href: `/products?category=knitting_patterns`,
+        name: 'Editor Picks',
+        href: '/products?category=knitting_patterns',
         imageSrc: '',
       },
       {
@@ -15,7 +15,7 @@ export const PRODUCT_CATEGORIES = [
       },
       {
         name: 'Bestsellers',
-        href: '/products?category=knitting_patterns',
+        href: '/products?category=knitting_patterns&bestsellers=true',
         imageSrc: '',
       },
     ],
@@ -35,10 +35,10 @@ export const PRODUCT_CATEGORIES = [
         imageSrc: '',
       },
       {
-        name: 'Bestselling Icons',
-        href: '/products?category=crochet_patterns',
+        name: 'Bestsellers',
+        href: '/products?category=crochet_patterns&bestsellers=true',
         imageSrc: '',
       },
     ],
   },
-]
+];
