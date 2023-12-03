@@ -29,7 +29,7 @@ export const EmailTemplate = ({
     <Html>
       <Head />
       <Preview>
-        The marketplace for high-quality digital goods.
+        The marketplace for high-quality fiber art patterns.
       </Preview>
       <Body style={main}>
         <Container style={container}>
@@ -42,8 +42,8 @@ export const EmailTemplate = ({
           />
           <Text style={paragraph}>Hi there,</Text>
           <Text style={paragraph}>
-            Welcome to DigitalHippo, the marketplace for
-            high quality digital goods. Use the button below
+            Welcome to Stitched, the marketplace for
+            high quality fiber art patterns. Use the button below
             to {actionLabel}.
           </Text>
           <Section style={btnContainer}>
@@ -54,7 +54,7 @@ export const EmailTemplate = ({
           <Text style={paragraph}>
             Best,
             <br />
-            The DigitalHippo team
+            The Stitched team
           </Text>
           <Hr style={hr} />
           <Text style={footer}>

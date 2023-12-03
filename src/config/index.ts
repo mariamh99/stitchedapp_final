@@ -1,43 +1,43 @@
 export const PRODUCT_CATEGORIES = [
   {
-    label: 'UI Kits',
-    value: 'ui_kits' as const,
+    label: 'Knitting Patterns',
+    value: 'knitting_patterns' as const,
     featured: [
       {
         name: 'Editor picks',
-        href: `/products?category=ui_kits`,
-        imageSrc: '/nav/ui-kits/mixed.jpg',
+        href: `/products?category=knitting_patterns`,
+        imageSrc: '',
       },
       {
         name: 'New Arrivals',
-        href: '/products?category=ui_kits&sort=desc',
-        imageSrc: '/nav/ui-kits/blue.jpg',
+        href: '/products?category=knitting_patterns&sort=desc',
+        imageSrc: '',
       },
       {
         name: 'Bestsellers',
-        href: '/products?category=ui_kits',
-        imageSrc: '/nav/ui-kits/purple.jpg',
+        href: '/products?category=knitting_patterns',
+        imageSrc: '',
       },
     ],
   },
   {
-    label: 'Icons',
-    value: 'icons' as const,
+    label: 'Crochet Patterns',
+    value: 'crochet_patterns' as const,
     featured: [
       {
-        name: 'Favorite Icon Picks',
-        href: `/products?category=icons`,
-        imageSrc: '/nav/icons/picks.jpg',
+        name: 'Editor Picks',
+        href: '/products?category=crochet_patterns',
+        imageSrc: '',
       },
       {
         name: 'New Arrivals',
-        href: '/products?category=icons&sort=desc',
-        imageSrc: '/nav/icons/new.jpg',
+        href: '/products?category=crochet_patterns&sort=desc',
+        imageSrc: '',
       },
       {
         name: 'Bestselling Icons',
-        href: '/products?category=icons',
-        imageSrc: '/nav/icons/bestsellers.jpg',
+        href: '/products?category=crochet_patterns',
+        imageSrc: '',
       },
     ],
   },

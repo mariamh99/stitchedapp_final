@@ -77,7 +77,7 @@ const ThankYouPage = async ({
             </h1>
             {order._isPaid ? (
               <p className='mt-2 text-base text-muted-foreground'>
-                Your order was processed and your assets are
+                Your order was processed and your patterns are
                 available to download below. We&apos;ve sent
                 your receipt and order details to{' '}
                 {typeof order.user !== 'string' ? (
@@ -149,7 +149,7 @@ const ThankYouPage = async ({
                               href={downloadUrl}
                               download={product.name}
                               className='text-blue-600 hover:underline underline-offset-2'>
-                              Download asset
+                              Download pattern
                             </a>
                           ) : null}
                         </div>

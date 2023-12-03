@@ -40,7 +40,7 @@ export const ReceiptEmail = ({
   return (
     <Html>
       <Head />
-      <Preview>Your DigitalHippo Receipt</Preview>
+      <Preview>Your Stitched Receipt</Preview>
 
       <Body style={main}>
         <Container style={container}>
@@ -131,7 +131,7 @@ export const ReceiptEmail = ({
                   <Link
                     href={`${process.env.NEXT_PUBLIC_SERVER_URL}/thank-you?orderId=${orderId}`}
                     style={productLink}>
-                    Download Asset
+                    Download pattern
                   </Link>
                 </Column>
 
@@ -188,7 +188,7 @@ export const ReceiptEmail = ({
             <Link href='#'>Privacy Policy </Link>
           </Text>
           <Text style={footerCopyright}>
-            Copyright © 2023 DigitalHippo Inc. <br />{' '}
+            Copyright © 2023 Stitched Inc. <br />{' '}
             <Link href='#'>All rights reserved</Link>
           </Text>
         </Container>
