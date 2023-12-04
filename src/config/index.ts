@@ -6,17 +6,17 @@ export const PRODUCT_CATEGORIES = [
       {
         name: 'Editor Picks',
         href: '/products?category=knitting_patterns',
-        imageSrc: 'public/nav/icons/picks.jpg',
+        imageSrc: '/nav/icons/picks.jpg',
       },
       {
         name: 'New Arrivals',
         href: '/products?category=knitting_patterns&sort=desc',
-        imageSrc: 'public/nav/icons/new.jpg',
+        imageSrc: '/nav/icons/new.jpg',
       },
       {
         name: 'Bestsellers',
         href: '/products?category=knitting_patterns&bestsellers=true',
-        imageSrc: 'public/nav/icons/bestsellers.jpg',
+        imageSrc: '/nav/icons/bestsellers.jpg',
       },
     ],
   },
@@ -27,17 +27,17 @@ export const PRODUCT_CATEGORIES = [
       {
         name: 'Editor Picks',
         href: '/products?category=crochet_patterns',
-        imageSrc: 'public/nav/ui-kits/blue.jpg',
+        imageSrc: '/nav/ui-kits/blue.jpg',
       },
       {
         name: 'New Arrivals',
         href: '/products?category=crochet_patterns&sort=desc',
-        imageSrc: 'public/nav/ui-kits/mixed.jpeg',
+        imageSrc: '/nav/ui-kits/mixed.jpeg',
       },
       {
         name: 'Bestsellers',
         href: '/products?category=crochet_patterns&bestsellers=true',
-        imageSrc: 'public/nav/ui-kits/purple.jpeg',
+        imageSrc: '/nav/ui-kits/purple.jpeg',
       },
     ],
   },
